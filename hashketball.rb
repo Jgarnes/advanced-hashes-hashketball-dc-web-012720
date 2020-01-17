@@ -152,8 +152,11 @@ def team_colors(team)
 end   
 
 def team_names
-  game_hash.map do |key, value|
-    return value[:team_names]
+  array = []
+  game_hash.each do |key, value|
+    binding.pry
+    array << value[:team_names]
+    array
   end
 end     
   
