@@ -174,9 +174,15 @@ def player_numbers(team)
 end     
     
 def player_stats(players_name)
+  new_hash = {}
   game_hash.each do |key, value|
     value.each do |attributes, data|
-    binding.pry  
+    if attributes == :players
+      data.each do |player|
+        if player[:player_name] == players_name
+          new_hash = player.delete_if do |k,v|
+            k == :players_name
+          end
     end
   end 
 end 
