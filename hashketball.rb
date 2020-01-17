@@ -160,9 +160,9 @@ end
 def player_numbers(team)
   game_hash.each do |key, value|
     if value[:team_name] == team 
-      value
+      value[:players][:number].map
      
-    binding.pry
+   # binding.pry
    
     
    end 
