@@ -154,9 +154,16 @@ end
 def team_names
   game_hash.map do |key, value|
     value[:team_name]
-    #binding.pry
   end
+end   
+
+def player_numbers(team)
+  game_hash.map do |key, value|
+    binding.pry
+    
+  end   
 end     
+    
   
 
 
