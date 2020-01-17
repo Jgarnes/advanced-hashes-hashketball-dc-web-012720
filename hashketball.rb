@@ -116,6 +116,7 @@ stats_hash
 end
 
 def num_points_scored(name)
+  
   point_stat = stats_hash['#{name}'][:points]
 binding.pry
 #point_stat
