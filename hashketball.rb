@@ -157,7 +157,8 @@ def team_names
     
     array << key[:team_name]
     binding.pry
-   # array
+    array
+    
   end
 end     
   
