@@ -117,7 +117,8 @@ end
 
 def num_points_scored(name)
   
-  point_stat = game_hash[name][:points]
+  if game_hash.include?(#{name})
+  puts game_hash[:players]
 
  puts  point_stat
 end   
