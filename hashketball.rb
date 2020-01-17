@@ -158,12 +158,12 @@ def team_names
 end   
 
 def player_numbers(team)
-  game_hash.map do |key, value|
-    value.map do |name, jersey|
-      jersey.map do |number|
+  game_hash.each do |key, value|
+    value.each do |name, jersey|
+     jersey.each do |num|
     binding.pry
    
-    
+    end 
    end 
   end   
 end     
