@@ -149,7 +149,7 @@ def team_colors(team)
     binding.pry
     if team == [:team_name]
       
-      #return team[:colors] 
+      return color[:colors] 
      end 
     end 
   end 
