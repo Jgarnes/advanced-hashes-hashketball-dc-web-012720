@@ -117,7 +117,7 @@ end
 
 def num_points_scored(name)
   binding.pry
-  point_stat = stats_hash['#{name}'][:points]
+  point_stat = game_hash['#{name}'][:points]
 
 #point_stat
 end 
