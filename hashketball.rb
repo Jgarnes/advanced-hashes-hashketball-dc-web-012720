@@ -1,7 +1,7 @@
 require 'pry'
 
 def game_hash
-stats_hash = {
+{
   :home => {
     team_name: "Brooklyn Nets",
     colors: ["Black","White"],
@@ -112,11 +112,11 @@ stats_hash = {
         :slam_dunks => "12"}]
   }
 }
-stats_hash
+
 end
 
 def num_points_scored(name)
-  stats_hash.each do |key, value|
+  game_hash.each do |key, value|
     value.each do |key2, stats|
       if key2 == :players
         stats.each do |player|
