@@ -150,7 +150,7 @@ def team_colors(team)
     if team == [:team_name]
       
       #return team[:colors] 
-    
+     end 
     end 
   end 
 end   
