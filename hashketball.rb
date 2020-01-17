@@ -155,7 +155,7 @@ def team_names
   array = []
   game_hash.map do |key, value|
     
-    array << key[:team_name]
+    array << value[:team_name]
     
     array
     #binding.pry
