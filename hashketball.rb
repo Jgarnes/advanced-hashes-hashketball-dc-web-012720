@@ -154,6 +154,7 @@ end
 def team_names
   game_hash.each do |key, value|
     return key[:team_names]
+  end
 end     
   
 
