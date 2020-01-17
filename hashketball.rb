@@ -158,15 +158,19 @@ def team_names
 end   
 
 def player_numbers(team)
+  array = []
   game_hash.each do |key, value|
     if value[:team_name] == team 
-      value[:players][:number].map
-     
-   # binding.pry
-   
-    
+      value.each do |attributes,data|
+        if attributes == :players
+          data.each do |player|
+            array << player[:number]
+          end
+        end 
+      end 
    end 
-  end   
+  end 
+  array
 end     
     
   
