@@ -149,7 +149,7 @@ def team_colors(team)
     #binding.pry
     if game_hash[:team_name] == team 
       
-      return color[:colors] 
+      return value[:colors] 
      end 
     end 
   end 
