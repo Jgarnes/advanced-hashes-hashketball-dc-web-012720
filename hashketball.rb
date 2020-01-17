@@ -173,8 +173,13 @@ def player_numbers(team)
   array
 end     
     
-  
-
+def player_stats(players_name)
+  game_hash.each do |key, value|
+    value.each do |attributes, data|
+    binding.pry  
+    end
+  end 
+end 
 
 
 
