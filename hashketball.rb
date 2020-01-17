@@ -163,7 +163,7 @@ def player_numbers(team)
       jersey.map do |number|
     binding.pry
    
-    end 
+    
    end 
   end   
 end     
