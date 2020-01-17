@@ -113,6 +113,8 @@ stats_hash = {
 stats_hash
 end
 
+def num_points_scored
+  
 
 
 
