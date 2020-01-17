@@ -113,8 +113,10 @@ stats_hash = {
 stats_hash
 end
 
-def num_points_scored
-  
+def num_points_scored(name)
+  point_stat = stats_hash["#{name}"][:points]
+point_stat
+end 
 
 
 
